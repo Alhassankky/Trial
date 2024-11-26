@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+}
+.con{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: sans-serif;
+}
+h2{
+    margin-bottom: 50px
+}
+form{
+    box-shadow: 0 .5rem 1rem rgb(0, 0, 0, .3);
+    height: 80vh;
+    width: 25%;
+    padding: 50px;
+}
+.row, .f, .check, .btn, .footer, .next{
+    margin-bottom: 30px;
+    width: 100%;
+}
+.row input{
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid rgb(176, 175, 175);
+    border-radius: 5px;
+    width: 95%;
+}
+.btn button{
+    width: 100%;
+    font-size: 10px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkcyan;
+    color: blanchedalmond;
+    box-shadow: 0 .5rem 1rem rgb(0, 0, 0, .3);
+    cursor: pointer;
+}
+
+.f{
+    text-align: end;
+    text-decoration-color: #fff ;
+}
+.f a{
+    text-decoration: none; 
+    color: rgb(96, 96, 96);
+}
+.next{
+    text-align: center;
+    opacity: .6;
+}
+
+.next span{
+    border: 1px solid rgb(178, 177, 177);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.next .strike{
+    border: 1px solid gray;
+    position: relative;
+    top: -10px;
+    z-index: -100;
+}
+
+.footer{
+    text-align: center;
+}
+
+.footer .fa{
+    border: 3px solid black;
+    padding: 10px;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+}
+
+.footer .fa-google{
+    color: yellow;
+    border: 3px solid red;
+}
+.footer .fa-facebook{
+    color: dodgerblue;
+    border: 3px solid blue;
+}
+.footer .fa-linkedin{
+    color: dodgerblue;
+    border: 3px solid dodgerblue;
+}
+.footer .fa-whatsapp{
+    color: rgb(96, 184, 96);
+    border: 3px solid  rgb(96, 184, 96);
+}
+.nav{
+    text-align: center;
+    text-decoration: none;
+}
